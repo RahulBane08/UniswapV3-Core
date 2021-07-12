@@ -1,18 +1,18 @@
 {
   "contractName": "SqrtPriceMath",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Functions based on Q64.96 sqrt price and liquidity\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains the math that uses square root of price as a Q64.96 and liquidity to compute deltas\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SqrtPriceMath.sol\":\"SqrtPriceMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FixedPoint96.sol\":{\"keccak256\":\"0x0ba8a9b95a956a4050749c0158e928398c447c91469682ca8a7cc7e77a7fe032\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://186d3b528866065a5856f96d2aeec698efa99f8da913e9adf34f8cc296cc993d\",\"dweb:/ipfs/QmUAiMvtAQp8c9dy57bqJYzG7hkb1uChiPaQmt264skoqP\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FullMath.sol\":{\"keccak256\":\"0xe511530871deaef86692cea9adb6076d26d7b47fd4815ce51af52af981026057\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc5a6ae776be3e7dcbd23d49ffbc9d792fed0ddf4b111ebb64b9bb2133ec263e\",\"dweb:/ipfs/QmbAUtWqvipzEARQpFpkzYKBELy3qeW5WXnZxHFU84sxG7\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol\":{\"keccak256\":\"0x4c12bf820c0b011f5490a209960ca34dd8af34660ef9e01de0438393d15e3fd8\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fed11489e218e55d087d42b4f350a30e10cd2aedec8f432bd3cc712f648d5869\",\"dweb:/ipfs/QmWfRnRxyXwHUDcTQPazxYYk5jxErGeQqdvnYtyg5nBPbU\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SqrtPriceMath.sol\":{\"keccak256\":\"0x4f69701d331d364b69a1cda77cd7b983a0079d36ae0e06b0bb1d64ae56c3705e\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://f9ed4f172da650484c97d31cce084e905e69c3f3b072141cb15363f4ed0cd03c\",\"dweb:/ipfs/QmPNDM667PxzbbR8YDbtibFaPMGrcbK71GKpFPkGgDEYvb\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/UnsafeMath.sol\":{\"keccak256\":\"0x5f36d7d16348d8c37fe64fda932018d6e5e8acecd054f0f97d32db62d20c6c88\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://4bd4e817ea3d2c26bb2be7e58db3eaa403119562c18d4c09cc92fb31aa231496\",\"dweb:/ipfs/QmbpjgL8Hf1mhmUyf9hpuPk4noGAggCdTqaRBFKqNF3AQw\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122052c07aa6d7437dd9d94ca218b953db390b05c5b6a36b2ad9dadc213ec057704e64736f6c63430007060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122052c07aa6d7437dd9d94ca218b953db390b05c5b6a36b2ad9dadc213ec057704e64736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Functions based on Q64.96 sqrt price and liquidity\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains the math that uses square root of price as a Q64.96 and liquidity to compute deltas\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SqrtPriceMath.sol\":\"SqrtPriceMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FixedPoint96.sol\":{\"keccak256\":\"0x0ba8a9b95a956a4050749c0158e928398c447c91469682ca8a7cc7e77a7fe032\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://186d3b528866065a5856f96d2aeec698efa99f8da913e9adf34f8cc296cc993d\",\"dweb:/ipfs/QmUAiMvtAQp8c9dy57bqJYzG7hkb1uChiPaQmt264skoqP\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FullMath.sol\":{\"keccak256\":\"0xe511530871deaef86692cea9adb6076d26d7b47fd4815ce51af52af981026057\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc5a6ae776be3e7dcbd23d49ffbc9d792fed0ddf4b111ebb64b9bb2133ec263e\",\"dweb:/ipfs/QmbAUtWqvipzEARQpFpkzYKBELy3qeW5WXnZxHFU84sxG7\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol\":{\"keccak256\":\"0x4c12bf820c0b011f5490a209960ca34dd8af34660ef9e01de0438393d15e3fd8\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fed11489e218e55d087d42b4f350a30e10cd2aedec8f432bd3cc712f648d5869\",\"dweb:/ipfs/QmWfRnRxyXwHUDcTQPazxYYk5jxErGeQqdvnYtyg5nBPbU\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SqrtPriceMath.sol\":{\"keccak256\":\"0x4f69701d331d364b69a1cda77cd7b983a0079d36ae0e06b0bb1d64ae56c3705e\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://f9ed4f172da650484c97d31cce084e905e69c3f3b072141cb15363f4ed0cd03c\",\"dweb:/ipfs/QmPNDM667PxzbbR8YDbtibFaPMGrcbK71GKpFPkGgDEYvb\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/UnsafeMath.sol\":{\"keccak256\":\"0x5f36d7d16348d8c37fe64fda932018d6e5e8acecd054f0f97d32db62d20c6c88\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://4bd4e817ea3d2c26bb2be7e58db3eaa403119562c18d4c09cc92fb31aa231496\",\"dweb:/ipfs/QmbpjgL8Hf1mhmUyf9hpuPk4noGAggCdTqaRBFKqNF3AQw\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206df5d633b892342c4d007c71f80e32e9982260767a2e4eaefa7d495d946a8f8264736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206df5d633b892342c4d007c71f80e32e9982260767a2e4eaefa7d495d946a8f8264736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "369:10404:29:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "369:10404:29:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: BUSL-1.1\npragma solidity >=0.5.0;\n\nimport './LowGasSafeMath.sol';\nimport './SafeCast.sol';\n\nimport './FullMath.sol';\nimport './UnsafeMath.sol';\nimport './FixedPoint96.sol';\n\n/// @title Functions based on Q64.96 sqrt price and liquidity\n/// @notice Contains the math that uses square root of price as a Q64.96 and liquidity to compute deltas\nlibrary SqrtPriceMath {\n    using LowGasSafeMath for uint256;\n    using SafeCast for uint256;\n\n    /// @notice Gets the next sqrt price given a delta of token0\n    /// @dev Always rounds up, because in the exact output case (increasing price) we need to move the price at least\n    /// far enough to get the desired output amount, and in the exact input case (decreasing price) we need to move the\n    /// price less in order to not send too much output.\n    /// The most precise formula for this is liquidity * sqrtPX96 / (liquidity +- amount * sqrtPX96),\n    /// if this is impossible because of overflow, we calculate liquidity / (liquidity / sqrtPX96 +- amount).\n    /// @param sqrtPX96 The starting price, i.e. before accounting for the token0 delta\n    /// @param liquidity The amount of usable liquidity\n    /// @param amount How much of token0 to add or remove from virtual reserves\n    /// @param add Whether to add or remove the amount of token0\n    /// @return The price after adding or removing amount, depending on add\n    function getNextSqrtPriceFromAmount0RoundingUp(\n        uint160 sqrtPX96,\n        uint128 liquidity,\n        uint256 amount,\n        bool add\n    ) internal pure returns (uint160) {\n        // we short circuit amount == 0 because the result is otherwise not guaranteed to equal the input price\n        if (amount == 0) return sqrtPX96;\n        uint256 numerator1 = uint256(liquidity) << FixedPoint96.RESOLUTION;\n\n        if (add) {\n            uint256 product;\n            if ((product = amount * sqrtPX96) / amount == sqrtPX96) {\n                uint256 denominator = numerator1 + product;\n                if (denominator >= numerator1)\n                    // always fits in 160 bits\n                    return uint160(FullMath.mulDivRoundingUp(numerator1, sqrtPX96, denominator));\n            }\n\n            return uint160(UnsafeMath.divRoundingUp(numerator1, (numerator1 / sqrtPX96).add(amount)));\n        } else {\n            uint256 product;\n            // if the product overflows, we know the denominator underflows\n            // in addition, we must check that the denominator does not underflow\n            require((product = amount * sqrtPX96) / amount == sqrtPX96 && numerator1 > product);\n            uint256 denominator = numerator1 - product;\n            return FullMath.mulDivRoundingUp(numerator1, sqrtPX96, denominator).toUint160();\n        }\n    }\n\n    /// @notice Gets the next sqrt price given a delta of token1\n    /// @dev Always rounds down, because in the exact output case (decreasing price) we need to move the price at least\n    /// far enough to get the desired output amount, and in the exact input case (increasing price) we need to move the\n    /// price less in order to not send too much output.\n    /// The formula we compute is within <1 wei of the lossless version: sqrtPX96 +- amount / liquidity\n    /// @param sqrtPX96 The starting price, i.e., before accounting for the token1 delta\n    /// @param liquidity The amount of usable liquidity\n    /// @param amount How much of token1 to add, or remove, from virtual reserves\n    /// @param add Whether to add, or remove, the amount of token1\n    /// @return The price after adding or removing `amount`\n    function getNextSqrtPriceFromAmount1RoundingDown(\n        uint160 sqrtPX96,\n        uint128 liquidity,\n        uint256 amount,\n        bool add\n    ) internal pure returns (uint160) {\n        // if we're adding (subtracting), rounding down requires rounding the quotient down (up)\n        // in both cases, avoid a mulDiv for most inputs\n        if (add) {\n            uint256 quotient =\n                (\n                    amount <= type(uint160).max\n                        ? (amount << FixedPoint96.RESOLUTION) / liquidity\n                        : FullMath.mulDiv(amount, FixedPoint96.Q96, liquidity)\n                );\n\n            return uint256(sqrtPX96).add(quotient).toUint160();\n        } else {\n            uint256 quotient =\n                (\n                    amount <= type(uint160).max\n                        ? UnsafeMath.divRoundingUp(amount << FixedPoint96.RESOLUTION, liquidity)\n                        : FullMath.mulDivRoundingUp(amount, FixedPoint96.Q96, liquidity)\n                );\n\n            require(sqrtPX96 > quotient);\n            // always fits 160 bits\n            return uint160(sqrtPX96 - quotient);\n        }\n    }\n\n    /// @notice Gets the next sqrt price given an input amount of token0 or token1\n    /// @dev Throws if price or liquidity are 0, or if the next price is out of bounds\n    /// @param sqrtPX96 The starting price, i.e., before accounting for the input amount\n    /// @param liquidity The amount of usable liquidity\n    /// @param amountIn How much of token0, or token1, is being swapped in\n    /// @param zeroForOne Whether the amount in is token0 or token1\n    /// @return sqrtQX96 The price after adding the input amount to token0 or token1\n    function getNextSqrtPriceFromInput(\n        uint160 sqrtPX96,\n        uint128 liquidity,\n        uint256 amountIn,\n        bool zeroForOne\n    ) internal pure returns (uint160 sqrtQX96) {\n        require(sqrtPX96 > 0);\n        require(liquidity > 0);\n\n        // round to make sure that we don't pass the target price\n        return\n            zeroForOne\n                ? getNextSqrtPriceFromAmount0RoundingUp(sqrtPX96, liquidity, amountIn, true)\n                : getNextSqrtPriceFromAmount1RoundingDown(sqrtPX96, liquidity, amountIn, true);\n    }\n\n    /// @notice Gets the next sqrt price given an output amount of token0 or token1\n    /// @dev Throws if price or liquidity are 0 or the next price is out of bounds\n    /// @param sqrtPX96 The starting price before accounting for the output amount\n    /// @param liquidity The amount of usable liquidity\n    /// @param amountOut How much of token0, or token1, is being swapped out\n    /// @param zeroForOne Whether the amount out is token0 or token1\n    /// @return sqrtQX96 The price after removing the output amount of token0 or token1\n    function getNextSqrtPriceFromOutput(\n        uint160 sqrtPX96,\n        uint128 liquidity,\n        uint256 amountOut,\n        bool zeroForOne\n    ) internal pure returns (uint160 sqrtQX96) {\n        require(sqrtPX96 > 0);\n        require(liquidity > 0);\n\n        // round to make sure that we pass the target price\n        return\n            zeroForOne\n                ? getNextSqrtPriceFromAmount1RoundingDown(sqrtPX96, liquidity, amountOut, false)\n                : getNextSqrtPriceFromAmount0RoundingUp(sqrtPX96, liquidity, amountOut, false);\n    }\n\n    /// @notice Gets the amount0 delta between two prices\n    /// @dev Calculates liquidity / sqrt(lower) - liquidity / sqrt(upper),\n    /// i.e. liquidity * (sqrt(upper) - sqrt(lower)) / (sqrt(upper) * sqrt(lower))\n    /// @param sqrtRatioAX96 A sqrt price\n    /// @param sqrtRatioBX96 Another sqrt price\n    /// @param liquidity The amount of usable liquidity\n    /// @param roundUp Whether to round the amount up or down\n    /// @return amount0 Amount of token0 required to cover a position of size liquidity between the two passed prices\n    function getAmount0Delta(\n        uint160 sqrtRatioAX96,\n        uint160 sqrtRatioBX96,\n        uint128 liquidity,\n        bool roundUp\n    ) internal pure returns (uint256 amount0) {\n        if (sqrtRatioAX96 > sqrtRatioBX96) (sqrtRatioAX96, sqrtRatioBX96) = (sqrtRatioBX96, sqrtRatioAX96);\n\n        uint256 numerator1 = uint256(liquidity) << FixedPoint96.RESOLUTION;\n        uint256 numerator2 = sqrtRatioBX96 - sqrtRatioAX96;\n\n        require(sqrtRatioAX96 > 0);\n\n        return\n            roundUp\n                ? UnsafeMath.divRoundingUp(\n                    FullMath.mulDivRoundingUp(numerator1, numerator2, sqrtRatioBX96),\n                    sqrtRatioAX96\n                )\n                : FullMath.mulDiv(numerator1, numerator2, sqrtRatioBX96) / sqrtRatioAX96;\n    }\n\n    /// @notice Gets the amount1 delta between two prices\n    /// @dev Calculates liquidity * (sqrt(upper) - sqrt(lower))\n    /// @param sqrtRatioAX96 A sqrt price\n    /// @param sqrtRatioBX96 Another sqrt price\n    /// @param liquidity The amount of usable liquidity\n    /// @param roundUp Whether to round the amount up, or down\n    /// @return amount1 Amount of token1 required to cover a position of size liquidity between the two passed prices\n    function getAmount1Delta(\n        uint160 sqrtRatioAX96,\n        uint160 sqrtRatioBX96,\n        uint128 liquidity,\n        bool roundUp\n    ) internal pure returns (uint256 amount1) {\n        if (sqrtRatioAX96 > sqrtRatioBX96) (sqrtRatioAX96, sqrtRatioBX96) = (sqrtRatioBX96, sqrtRatioAX96);\n\n        return\n            roundUp\n                ? FullMath.mulDivRoundingUp(liquidity, sqrtRatioBX96 - sqrtRatioAX96, FixedPoint96.Q96)\n                : FullMath.mulDiv(liquidity, sqrtRatioBX96 - sqrtRatioAX96, FixedPoint96.Q96);\n    }\n\n    /// @notice Helper that gets signed token0 delta\n    /// @param sqrtRatioAX96 A sqrt price\n    /// @param sqrtRatioBX96 Another sqrt price\n    /// @param liquidity The change in liquidity for which to compute the amount0 delta\n    /// @return amount0 Amount of token0 corresponding to the passed liquidityDelta between the two prices\n    function getAmount0Delta(\n        uint160 sqrtRatioAX96,\n        uint160 sqrtRatioBX96,\n        int128 liquidity\n    ) internal pure returns (int256 amount0) {\n        return\n            liquidity < 0\n                ? -getAmount0Delta(sqrtRatioAX96, sqrtRatioBX96, uint128(-liquidity), false).toInt256()\n                : getAmount0Delta(sqrtRatioAX96, sqrtRatioBX96, uint128(liquidity), true).toInt256();\n    }\n\n    /// @notice Helper that gets signed token1 delta\n    /// @param sqrtRatioAX96 A sqrt price\n    /// @param sqrtRatioBX96 Another sqrt price\n    /// @param liquidity The change in liquidity for which to compute the amount1 delta\n    /// @return amount1 Amount of token1 corresponding to the passed liquidityDelta between the two prices\n    function getAmount1Delta(\n        uint160 sqrtRatioAX96,\n        uint160 sqrtRatioBX96,\n        int128 liquidity\n    ) internal pure returns (int256 amount1) {\n        return\n            liquidity < 0\n                ? -getAmount1Delta(sqrtRatioAX96, sqrtRatioBX96, uint128(-liquidity), false).toInt256()\n                : getAmount1Delta(sqrtRatioAX96, sqrtRatioBX96, uint128(liquidity), true).toInt256();\n    }\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SqrtPriceMath.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SqrtPriceMath.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SqrtPriceMath.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SqrtPriceMath.sol",
     "exportedSymbols": {
       "FixedPoint96": [
         3894
@@ -49,7 +49,7 @@
         "src": "37:24:29"
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
         "file": "./LowGasSafeMath.sol",
         "id": 5230,
         "nodeType": "ImportDirective",
@@ -60,7 +60,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol",
         "file": "./SafeCast.sol",
         "id": 5231,
         "nodeType": "ImportDirective",
@@ -71,7 +71,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FullMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FullMath.sol",
         "file": "./FullMath.sol",
         "id": 5232,
         "nodeType": "ImportDirective",
@@ -82,7 +82,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/UnsafeMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/UnsafeMath.sol",
         "file": "./UnsafeMath.sol",
         "id": 5233,
         "nodeType": "ImportDirective",
@@ -93,7 +93,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FixedPoint96.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FixedPoint96.sol",
         "file": "./FixedPoint96.sol",
         "id": 5234,
         "nodeType": "ImportDirective",
@@ -7002,7 +7002,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SqrtPriceMath.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SqrtPriceMath.sol",
       "exportedSymbols": {
         "FixedPoint96": [
           3894
@@ -7042,7 +7042,7 @@
       {
         "attributes": {
           "SourceUnit": 4250,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
           "file": "./LowGasSafeMath.sol",
           "scope": 5744,
           "symbolAliases": [
@@ -7057,7 +7057,7 @@
       {
         "attributes": {
           "SourceUnit": 5228,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol",
           "file": "./SafeCast.sol",
           "scope": 5744,
           "symbolAliases": [
@@ -7072,7 +7072,7 @@
       {
         "attributes": {
           "SourceUnit": 4068,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FullMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FullMath.sol",
           "file": "./FullMath.sol",
           "scope": 5744,
           "symbolAliases": [
@@ -7087,7 +7087,7 @@
       {
         "attributes": {
           "SourceUnit": 7315,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/UnsafeMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/UnsafeMath.sol",
           "file": "./UnsafeMath.sol",
           "scope": 5744,
           "symbolAliases": [
@@ -7102,7 +7102,7 @@
       {
         "attributes": {
           "SourceUnit": 3895,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/FixedPoint96.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/FixedPoint96.sol",
           "file": "./FixedPoint96.sol",
           "scope": 5744,
           "symbolAliases": [
@@ -14535,7 +14535,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.136Z",
+  "updatedAt": "2021-06-21T10:48:46.963Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

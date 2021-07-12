@@ -1,7 +1,7 @@
 {
   "contractName": "NoDelegateCall",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"stateVariables\":{\"original\":{\"details\":\"The original address of this contract\"}},\"title\":\"Prevents delegatecall to a contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Base contract that provides a modifier for preventing delegatecall to methods in a child contract\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol\":\"NoDelegateCall\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol\":{\"keccak256\":\"0xc12ceb98dc803a7d745d7e7c53175b4c5b7781dd26e6f5d233deecd8b0d0d1dc\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://224378ae3c96adfb81f0c827e2a5a8b51e3bb51c6fc4a82e79f14720b42d719f\",\"dweb:/ipfs/QmapcnEvVdCoLqp4CUYmg8tuc6ui1u6fg8gt7YoCVvgZyC\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"stateVariables\":{\"original\":{\"details\":\"The original address of this contract\"}},\"title\":\"Prevents delegatecall to a contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Base contract that provides a modifier for preventing delegatecall to methods in a child contract\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol\":\"NoDelegateCall\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol\":{\"keccak256\":\"0xc12ceb98dc803a7d745d7e7c53175b4c5b7781dd26e6f5d233deecd8b0d0d1dc\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://224378ae3c96adfb81f0c827e2a5a8b51e3bb51c6fc4a82e79f14720b42d719f\",\"dweb:/ipfs/QmapcnEvVdCoLqp4CUYmg8tuc6ui1u6fg8gt7YoCVvgZyC\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -10,9 +10,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: BUSL-1.1\npragma solidity =0.7.6;\n\n/// @title Prevents delegatecall to a contract\n/// @notice Base contract that provides a modifier for preventing delegatecall to methods in a child contract\nabstract contract NoDelegateCall {\n    /// @dev The original address of this contract\n    address private immutable original;\n\n    constructor() {\n        // Immutables are computed in the init code of the contract, and then inlined into the deployed bytecode.\n        // In other words, this variable won't change when it's checked at runtime.\n        original = address(this);\n    }\n\n    /// @dev Private method is used instead of inlining into modifier because modifiers are copied into each method,\n    ///     and the use of immutable means the address bytes are copied in every place the modifier is used.\n    function checkNotDelegateCall() private view {\n        require(address(this) == original);\n    }\n\n    /// @notice Prevents delegatecall into the modified method\n    modifier noDelegateCall() {\n        checkNotDelegateCall();\n        _;\n    }\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol",
     "exportedSymbols": {
       "NoDelegateCall": [
         72
@@ -448,7 +448,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol",
       "exportedSymbols": {
         "NoDelegateCall": [
           72
@@ -978,7 +978,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.034Z",
+  "updatedAt": "2021-06-21T10:48:46.860Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

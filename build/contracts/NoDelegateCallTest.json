@@ -61,9 +61,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"callsIntoNoDelegateCallFunction\",\"outputs\":[],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"canBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cannotBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getGasCostOfCanBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getGasCostOfCannotBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/test/NoDelegateCallTest.sol\":\"NoDelegateCallTest\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol\":{\"keccak256\":\"0xc12ceb98dc803a7d745d7e7c53175b4c5b7781dd26e6f5d233deecd8b0d0d1dc\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://224378ae3c96adfb81f0c827e2a5a8b51e3bb51c6fc4a82e79f14720b42d719f\",\"dweb:/ipfs/QmapcnEvVdCoLqp4CUYmg8tuc6ui1u6fg8gt7YoCVvgZyC\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/test/NoDelegateCallTest.sol\":{\"keccak256\":\"0xdd42b1cb36d44f17bb60d1d548c0d52f8ceaab3b81806507f34b53d13ee30333\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0e68f08c0eb20a8d527d6ff981dda5454651229fd7dc42aae3d94bbcfc4d74f3\",\"dweb:/ipfs/QmXcMqroiGh2Jpme6k8o1jAy9NmxQ2JV7PCSmyHCdHwSA7\"]}},\"version\":1}",
-  "bytecode": "0x60a060405234801561001057600080fd5b5030606081901b6080526101546100306000398060ec52506101546000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80633045a6e01461005c5780633c7c8dd014610076578063423ecb051461007e5780636427016414610086578063f45f416e14610090575b600080fd5b610064610098565b60408051918252519081900360200190f35b6100646100af565b6100646100b9565b61008e6100cd565b005b6100646100d7565b6000805a90506100a66100d7565b505a9003905090565b6000805a90506100a65b60006100c36100e1565b6005425b04905090565b6100d5610116565b565b60006005426100c7565b306001600160a01b037f000000000000000000000000000000000000000000000000000000000000000016146100d557600080fd5b6100d56100e156fea2646970667358221220fcf9550f49f6e703bb73e3223e47be8d51db25e68e3fc320a8e1080bfb534b7f64736f6c63430007060033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80633045a6e01461005c5780633c7c8dd014610076578063423ecb051461007e5780636427016414610086578063f45f416e14610090575b600080fd5b610064610098565b60408051918252519081900360200190f35b6100646100af565b6100646100b9565b61008e6100cd565b005b6100646100d7565b6000805a90506100a66100d7565b505a9003905090565b6000805a90506100a65b60006100c36100e1565b6005425b04905090565b6100d5610116565b565b60006005426100c7565b306001600160a01b037f000000000000000000000000000000000000000000000000000000000000000016146100d557600080fd5b6100d56100e156fea2646970667358221220fcf9550f49f6e703bb73e3223e47be8d51db25e68e3fc320a8e1080bfb534b7f64736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"callsIntoNoDelegateCallFunction\",\"outputs\":[],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"canBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cannotBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getGasCostOfCanBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getGasCostOfCannotBeDelegateCalled\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/test/NoDelegateCallTest.sol\":\"NoDelegateCallTest\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol\":{\"keccak256\":\"0xc12ceb98dc803a7d745d7e7c53175b4c5b7781dd26e6f5d233deecd8b0d0d1dc\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://224378ae3c96adfb81f0c827e2a5a8b51e3bb51c6fc4a82e79f14720b42d719f\",\"dweb:/ipfs/QmapcnEvVdCoLqp4CUYmg8tuc6ui1u6fg8gt7YoCVvgZyC\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/test/NoDelegateCallTest.sol\":{\"keccak256\":\"0xdd42b1cb36d44f17bb60d1d548c0d52f8ceaab3b81806507f34b53d13ee30333\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0e68f08c0eb20a8d527d6ff981dda5454651229fd7dc42aae3d94bbcfc4d74f3\",\"dweb:/ipfs/QmXcMqroiGh2Jpme6k8o1jAy9NmxQ2JV7PCSmyHCdHwSA7\"]}},\"version\":1}",
+  "bytecode": "0x60a060405234801561001057600080fd5b5030606081901b6080526101546100306000398060ec52506101546000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80633045a6e01461005c5780633c7c8dd014610076578063423ecb051461007e5780636427016414610086578063f45f416e14610090575b600080fd5b610064610098565b60408051918252519081900360200190f35b6100646100af565b6100646100b9565b61008e6100cd565b005b6100646100d7565b6000805a90506100a66100d7565b505a9003905090565b6000805a90506100a65b60006100c36100e1565b6005425b04905090565b6100d5610116565b565b60006005426100c7565b306001600160a01b037f000000000000000000000000000000000000000000000000000000000000000016146100d557600080fd5b6100d56100e156fea2646970667358221220259d8477b6bd812c47d6e54721987e53189ef6f6b48235e0c62021a571e1efcf64736f6c63430007060033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80633045a6e01461005c5780633c7c8dd014610076578063423ecb051461007e5780636427016414610086578063f45f416e14610090575b600080fd5b610064610098565b60408051918252519081900360200190f35b6100646100af565b6100646100b9565b61008e6100cd565b005b6100646100d7565b6000805a90506100a66100d7565b505a9003905090565b6000805a90506100a65b60006100c36100e1565b6005425b04905090565b6100d5610116565b565b60006005426100c7565b306001600160a01b037f000000000000000000000000000000000000000000000000000000000000000016146100d557600080fd5b6100d56100e156fea2646970667358221220259d8477b6bd812c47d6e54721987e53189ef6f6b48235e0c62021a571e1efcf64736f6c63430007060033",
   "immutableReferences": {
     "38": [
       {
@@ -77,9 +77,9 @@
   "sourceMap": "97:856:44:-:0;;;;;;;;;;;;-1:-1:-1;591:4:1;572:24;;;;;;97:856:44;;;;;;;",
   "deployedSourceMap": "97:856:44:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;387:190;;;:::i;:::-;;;;;;;;;;;;;;;;583:196;;;:::i;259:122::-;;;:::i;785:97::-;;;:::i;:::-;;149:104;;;:::i;387:190::-;453:7;472:17;492:9;472:29;;511:21;:19;:21::i;:::-;;561:9;549:21;;;-1:-1:-1;387:190:44;:::o;583:196::-;652:7;671:17;691:9;671:29;;710:24;259:122;329:7;1036:22:1;:20;:22::i;:::-;373:1:44::1;355:15;:19;;348:26;;259:122:::0;:::o;785:97::-;852:23;:21;:23::i;:::-;785:97::o;149:104::-;201:7;245:1;227:15;:19;;835:96:1;906:4;-1:-1:-1;;;;;915:8:1;898:25;;890:34;;;;;888:63:44;1036:22:1;:20;:22::i",
   "source": "// SPDX-License-Identifier: UNLICENSED\npragma solidity =0.7.6;\n\nimport '../NoDelegateCall.sol';\n\ncontract NoDelegateCallTest is NoDelegateCall {\n    function canBeDelegateCalled() public view returns (uint256) {\n        return block.timestamp / 5;\n    }\n\n    function cannotBeDelegateCalled() public view noDelegateCall returns (uint256) {\n        return block.timestamp / 5;\n    }\n\n    function getGasCostOfCanBeDelegateCalled() external view returns (uint256) {\n        uint256 gasBefore = gasleft();\n        canBeDelegateCalled();\n        return gasBefore - gasleft();\n    }\n\n    function getGasCostOfCannotBeDelegateCalled() external view returns (uint256) {\n        uint256 gasBefore = gasleft();\n        cannotBeDelegateCalled();\n        return gasBefore - gasleft();\n    }\n\n    function callsIntoNoDelegateCallFunction() external view {\n        noDelegateCallPrivate();\n    }\n\n    function noDelegateCallPrivate() private view noDelegateCall {}\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/test/NoDelegateCallTest.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/test/NoDelegateCallTest.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/test/NoDelegateCallTest.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/test/NoDelegateCallTest.sol",
     "exportedSymbols": {
       "NoDelegateCall": [
         72
@@ -104,7 +104,7 @@
         "src": "39:23:44"
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol",
         "file": "../NoDelegateCall.sol",
         "id": 8123,
         "nodeType": "ImportDirective",
@@ -997,7 +997,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/test/NoDelegateCallTest.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/test/NoDelegateCallTest.sol",
       "exportedSymbols": {
         "NoDelegateCall": [
           72
@@ -1025,7 +1025,7 @@
       {
         "attributes": {
           "SourceUnit": 73,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/NoDelegateCall.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/NoDelegateCall.sol",
           "file": "../NoDelegateCall.sol",
           "scope": 8202,
           "symbolAliases": [
@@ -2112,7 +2112,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.185Z",
+  "updatedAt": "2021-06-21T10:48:47.016Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -1,18 +1,18 @@
 {
   "contractName": "Tick",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Tick\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains functions for managing tick processes and relevant calculations\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/Tick.sol\":\"Tick\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LiquidityMath.sol\":{\"keccak256\":\"0xd53041349718d5bce4a89e87cd911879d41ba42ba3fab0614e5e8b742f352b88\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://ea7529b99ab4fc1d3e6c5a31990fb688f0a2d6cc302c0419e0cf5a2d6c563781\",\"dweb:/ipfs/QmVaphRSNpfChHZKzutQ9WprwCo2WE1euvThRfHcwsnHhj\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol\":{\"keccak256\":\"0x4c12bf820c0b011f5490a209960ca34dd8af34660ef9e01de0438393d15e3fd8\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fed11489e218e55d087d42b4f350a30e10cd2aedec8f432bd3cc712f648d5869\",\"dweb:/ipfs/QmWfRnRxyXwHUDcTQPazxYYk5jxErGeQqdvnYtyg5nBPbU\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/Tick.sol\":{\"keccak256\":\"0x60752e079938508bfc274e2a3d2618ede09e153ba6f08cd3c476557947fbe2ac\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://23e7045efd6c5c4c5b3d15898d639cc2c128ace49d2dab0b1ef2b868e6a43234\",\"dweb:/ipfs/QmaoV6txuomfjSoeakDyZ73mPygEHCgrYarKQxQ5sp29hu\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickMath.sol\":{\"keccak256\":\"0x1f864a2bf61ba05f3173eaf2e3f94c5e1da4bec0554757527b6d1ef1fe439e4e\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://5139b586df546a9d1c46804ca400b1cb9ce87236eaf212ebd64edee6747a172a\",\"dweb:/ipfs/QmVa2kcRw3VyuB6j1EVWXACKnkbQZgfXYXNi5voq3XkYG8\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122046e3ef6bb0a26f41a13835fdb1bb4b92d1987a21698f2455b289bd4fc77cc77564736f6c63430007060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122046e3ef6bb0a26f41a13835fdb1bb4b92d1987a21698f2455b289bd4fc77cc77564736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Tick\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains functions for managing tick processes and relevant calculations\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/Tick.sol\":\"Tick\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LiquidityMath.sol\":{\"keccak256\":\"0xd53041349718d5bce4a89e87cd911879d41ba42ba3fab0614e5e8b742f352b88\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://ea7529b99ab4fc1d3e6c5a31990fb688f0a2d6cc302c0419e0cf5a2d6c563781\",\"dweb:/ipfs/QmVaphRSNpfChHZKzutQ9WprwCo2WE1euvThRfHcwsnHhj\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol\":{\"keccak256\":\"0x4c12bf820c0b011f5490a209960ca34dd8af34660ef9e01de0438393d15e3fd8\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fed11489e218e55d087d42b4f350a30e10cd2aedec8f432bd3cc712f648d5869\",\"dweb:/ipfs/QmWfRnRxyXwHUDcTQPazxYYk5jxErGeQqdvnYtyg5nBPbU\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/Tick.sol\":{\"keccak256\":\"0x60752e079938508bfc274e2a3d2618ede09e153ba6f08cd3c476557947fbe2ac\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://23e7045efd6c5c4c5b3d15898d639cc2c128ace49d2dab0b1ef2b868e6a43234\",\"dweb:/ipfs/QmaoV6txuomfjSoeakDyZ73mPygEHCgrYarKQxQ5sp29hu\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickMath.sol\":{\"keccak256\":\"0x1f864a2bf61ba05f3173eaf2e3f94c5e1da4bec0554757527b6d1ef1fe439e4e\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://5139b586df546a9d1c46804ca400b1cb9ce87236eaf212ebd64edee6747a172a\",\"dweb:/ipfs/QmVa2kcRw3VyuB6j1EVWXACKnkbQZgfXYXNi5voq3XkYG8\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f4c91501558f17933385e344004ff4d1bf8e03b8f75c351d75652ef2e387113564736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f4c91501558f17933385e344004ff4d1bf8e03b8f75c351d75652ef2e387113564736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "277:9241:31:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "277:9241:31:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: BUSL-1.1\npragma solidity >=0.5.0;\n\nimport './LowGasSafeMath.sol';\nimport './SafeCast.sol';\n\nimport './TickMath.sol';\nimport './LiquidityMath.sol';\n\n/// @title Tick\n/// @notice Contains functions for managing tick processes and relevant calculations\nlibrary Tick {\n    using LowGasSafeMath for int256;\n    using SafeCast for int256;\n\n    // info stored for each initialized individual tick\n    struct Info {\n        // the total position liquidity that references this tick\n        uint128 liquidityGross;\n        // amount of net liquidity added (subtracted) when tick is crossed from left to right (right to left),\n        int128 liquidityNet;\n        // fee growth per unit of liquidity on the _other_ side of this tick (relative to the current tick)\n        // only has relative meaning, not absolute — the value depends on when the tick is initialized\n        uint256 feeGrowthOutside0X128;\n        uint256 feeGrowthOutside1X128;\n        // the cumulative tick value on the other side of the tick\n        int56 tickCumulativeOutside;\n        // the seconds per unit of liquidity on the _other_ side of this tick (relative to the current tick)\n        // only has relative meaning, not absolute — the value depends on when the tick is initialized\n        uint160 secondsPerLiquidityOutsideX128;\n        // the seconds spent on the other side of the tick (relative to the current tick)\n        // only has relative meaning, not absolute — the value depends on when the tick is initialized\n        uint32 secondsOutside;\n        // true iff the tick is initialized, i.e. the value is exactly equivalent to the expression liquidityGross != 0\n        // these 8 bits are set to prevent fresh sstores when crossing newly initialized ticks\n        bool initialized;\n    }\n\n    /// @notice Derives max liquidity per tick from given tick spacing\n    /// @dev Executed within the pool constructor\n    /// @param tickSpacing The amount of required tick separation, realized in multiples of `tickSpacing`\n    ///     e.g., a tickSpacing of 3 requires ticks to be initialized every 3rd tick i.e., ..., -6, -3, 0, 3, 6, ...\n    /// @return The max liquidity per tick\n    function tickSpacingToMaxLiquidityPerTick(int24 tickSpacing) internal pure returns (uint128) {\n        int24 minTick = (TickMath.MIN_TICK / tickSpacing) * tickSpacing;\n        int24 maxTick = (TickMath.MAX_TICK / tickSpacing) * tickSpacing;\n        uint24 numTicks = uint24((maxTick - minTick) / tickSpacing) + 1;\n        return type(uint128).max / numTicks;\n    }\n\n    /// @notice Retrieves fee growth data\n    /// @param self The mapping containing all tick information for initialized ticks\n    /// @param tickLower The lower tick boundary of the position\n    /// @param tickUpper The upper tick boundary of the position\n    /// @param tickCurrent The current tick\n    /// @param feeGrowthGlobal0X128 The all-time global fee growth, per unit of liquidity, in token0\n    /// @param feeGrowthGlobal1X128 The all-time global fee growth, per unit of liquidity, in token1\n    /// @return feeGrowthInside0X128 The all-time fee growth in token0, per unit of liquidity, inside the position's tick boundaries\n    /// @return feeGrowthInside1X128 The all-time fee growth in token1, per unit of liquidity, inside the position's tick boundaries\n    function getFeeGrowthInside(\n        mapping(int24 => Tick.Info) storage self,\n        int24 tickLower,\n        int24 tickUpper,\n        int24 tickCurrent,\n        uint256 feeGrowthGlobal0X128,\n        uint256 feeGrowthGlobal1X128\n    ) internal view returns (uint256 feeGrowthInside0X128, uint256 feeGrowthInside1X128) {\n        Info storage lower = self[tickLower];\n        Info storage upper = self[tickUpper];\n\n        // calculate fee growth below\n        uint256 feeGrowthBelow0X128;\n        uint256 feeGrowthBelow1X128;\n        if (tickCurrent >= tickLower) {\n            feeGrowthBelow0X128 = lower.feeGrowthOutside0X128;\n            feeGrowthBelow1X128 = lower.feeGrowthOutside1X128;\n        } else {\n            feeGrowthBelow0X128 = feeGrowthGlobal0X128 - lower.feeGrowthOutside0X128;\n            feeGrowthBelow1X128 = feeGrowthGlobal1X128 - lower.feeGrowthOutside1X128;\n        }\n\n        // calculate fee growth above\n        uint256 feeGrowthAbove0X128;\n        uint256 feeGrowthAbove1X128;\n        if (tickCurrent < tickUpper) {\n            feeGrowthAbove0X128 = upper.feeGrowthOutside0X128;\n            feeGrowthAbove1X128 = upper.feeGrowthOutside1X128;\n        } else {\n            feeGrowthAbove0X128 = feeGrowthGlobal0X128 - upper.feeGrowthOutside0X128;\n            feeGrowthAbove1X128 = feeGrowthGlobal1X128 - upper.feeGrowthOutside1X128;\n        }\n\n        feeGrowthInside0X128 = feeGrowthGlobal0X128 - feeGrowthBelow0X128 - feeGrowthAbove0X128;\n        feeGrowthInside1X128 = feeGrowthGlobal1X128 - feeGrowthBelow1X128 - feeGrowthAbove1X128;\n    }\n\n    /// @notice Updates a tick and returns true if the tick was flipped from initialized to uninitialized, or vice versa\n    /// @param self The mapping containing all tick information for initialized ticks\n    /// @param tick The tick that will be updated\n    /// @param tickCurrent The current tick\n    /// @param liquidityDelta A new amount of liquidity to be added (subtracted) when tick is crossed from left to right (right to left)\n    /// @param feeGrowthGlobal0X128 The all-time global fee growth, per unit of liquidity, in token0\n    /// @param feeGrowthGlobal1X128 The all-time global fee growth, per unit of liquidity, in token1\n    /// @param secondsPerLiquidityCumulativeX128 The all-time seconds per max(1, liquidity) of the pool\n    /// @param time The current block timestamp cast to a uint32\n    /// @param upper true for updating a position's upper tick, or false for updating a position's lower tick\n    /// @param maxLiquidity The maximum liquidity allocation for a single tick\n    /// @return flipped Whether the tick was flipped from initialized to uninitialized, or vice versa\n    function update(\n        mapping(int24 => Tick.Info) storage self,\n        int24 tick,\n        int24 tickCurrent,\n        int128 liquidityDelta,\n        uint256 feeGrowthGlobal0X128,\n        uint256 feeGrowthGlobal1X128,\n        uint160 secondsPerLiquidityCumulativeX128,\n        int56 tickCumulative,\n        uint32 time,\n        bool upper,\n        uint128 maxLiquidity\n    ) internal returns (bool flipped) {\n        Tick.Info storage info = self[tick];\n\n        uint128 liquidityGrossBefore = info.liquidityGross;\n        uint128 liquidityGrossAfter = LiquidityMath.addDelta(liquidityGrossBefore, liquidityDelta);\n\n        require(liquidityGrossAfter <= maxLiquidity, 'LO');\n\n        flipped = (liquidityGrossAfter == 0) != (liquidityGrossBefore == 0);\n\n        if (liquidityGrossBefore == 0) {\n            // by convention, we assume that all growth before a tick was initialized happened _below_ the tick\n            if (tick <= tickCurrent) {\n                info.feeGrowthOutside0X128 = feeGrowthGlobal0X128;\n                info.feeGrowthOutside1X128 = feeGrowthGlobal1X128;\n                info.secondsPerLiquidityOutsideX128 = secondsPerLiquidityCumulativeX128;\n                info.tickCumulativeOutside = tickCumulative;\n                info.secondsOutside = time;\n            }\n            info.initialized = true;\n        }\n\n        info.liquidityGross = liquidityGrossAfter;\n\n        // when the lower (upper) tick is crossed left to right (right to left), liquidity must be added (removed)\n        info.liquidityNet = upper\n            ? int256(info.liquidityNet).sub(liquidityDelta).toInt128()\n            : int256(info.liquidityNet).add(liquidityDelta).toInt128();\n    }\n\n    /// @notice Clears tick data\n    /// @param self The mapping containing all initialized tick information for initialized ticks\n    /// @param tick The tick that will be cleared\n    function clear(mapping(int24 => Tick.Info) storage self, int24 tick) internal {\n        delete self[tick];\n    }\n\n    /// @notice Transitions to next tick as needed by price movement\n    /// @param self The mapping containing all tick information for initialized ticks\n    /// @param tick The destination tick of the transition\n    /// @param feeGrowthGlobal0X128 The all-time global fee growth, per unit of liquidity, in token0\n    /// @param feeGrowthGlobal1X128 The all-time global fee growth, per unit of liquidity, in token1\n    /// @param secondsPerLiquidityCumulativeX128 The current seconds per liquidity\n    /// @param time The current block.timestamp\n    /// @return liquidityNet The amount of liquidity added (subtracted) when tick is crossed from left to right (right to left)\n    function cross(\n        mapping(int24 => Tick.Info) storage self,\n        int24 tick,\n        uint256 feeGrowthGlobal0X128,\n        uint256 feeGrowthGlobal1X128,\n        uint160 secondsPerLiquidityCumulativeX128,\n        int56 tickCumulative,\n        uint32 time\n    ) internal returns (int128 liquidityNet) {\n        Tick.Info storage info = self[tick];\n        info.feeGrowthOutside0X128 = feeGrowthGlobal0X128 - info.feeGrowthOutside0X128;\n        info.feeGrowthOutside1X128 = feeGrowthGlobal1X128 - info.feeGrowthOutside1X128;\n        info.secondsPerLiquidityOutsideX128 = secondsPerLiquidityCumulativeX128 - info.secondsPerLiquidityOutsideX128;\n        info.tickCumulativeOutside = tickCumulative - info.tickCumulativeOutside;\n        info.secondsOutside = time - info.secondsOutside;\n        liquidityNet = info.liquidityNet;\n    }\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/Tick.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/Tick.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/Tick.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/Tick.sol",
     "exportedSymbols": {
       "LiquidityMath": [
         4119
@@ -46,7 +46,7 @@
         "src": "37:24:31"
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
         "file": "./LowGasSafeMath.sol",
         "id": 6007,
         "nodeType": "ImportDirective",
@@ -57,7 +57,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol",
         "file": "./SafeCast.sol",
         "id": 6008,
         "nodeType": "ImportDirective",
@@ -68,7 +68,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickMath.sol",
         "file": "./TickMath.sol",
         "id": 6009,
         "nodeType": "ImportDirective",
@@ -79,7 +79,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LiquidityMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LiquidityMath.sol",
         "file": "./LiquidityMath.sol",
         "id": 6010,
         "nodeType": "ImportDirective",
@@ -5427,7 +5427,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/Tick.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/Tick.sol",
       "exportedSymbols": {
         "LiquidityMath": [
           4119
@@ -5464,7 +5464,7 @@
       {
         "attributes": {
           "SourceUnit": 4250,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
           "file": "./LowGasSafeMath.sol",
           "scope": 6457,
           "symbolAliases": [
@@ -5479,7 +5479,7 @@
       {
         "attributes": {
           "SourceUnit": 5228,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/SafeCast.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/SafeCast.sol",
           "file": "./SafeCast.sol",
           "scope": 6457,
           "symbolAliases": [
@@ -5494,7 +5494,7 @@
       {
         "attributes": {
           "SourceUnit": 7248,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickMath.sol",
           "file": "./TickMath.sol",
           "scope": 6457,
           "symbolAliases": [
@@ -5509,7 +5509,7 @@
       {
         "attributes": {
           "SourceUnit": 4120,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LiquidityMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LiquidityMath.sol",
           "file": "./LiquidityMath.sol",
           "scope": 6457,
           "symbolAliases": [
@@ -11247,7 +11247,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.148Z",
+  "updatedAt": "2021-06-21T10:48:46.976Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

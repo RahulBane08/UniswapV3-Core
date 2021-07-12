@@ -1,18 +1,18 @@
 {
   "contractName": "TickBitmap",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"The mapping uses int16 for keys since ticks are represented as int24 and there are 256 (2^8) values per word.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"Packed tick initialized state library\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Stores a packed mapping of tick index to its initialized state\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickBitmap.sol\":\"TickBitmap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/BitMath.sol\":{\"keccak256\":\"0x82e425066110aac05ed8a9fc90f9ee85142b6f434769447e49d4438a8d9fcd82\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://77a97078bc992c18c59cb61e07fa4632c8a26b6babf00f3b16eabb5dcaa953b4\",\"dweb:/ipfs/QmTj15ufLWk6AxedSVXBcLp5cYf2DCJAeDi94cVemCkm54\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickBitmap.sol\":{\"keccak256\":\"0x2035bacd76333baa4ef2bbd6423561638e1b7e97cb19be5b4d61feeea3340364\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://55da2e8d44c094b9aa1a40577f9ff32605516ae45ad54e799ec9d570d007a206\",\"dweb:/ipfs/QmakgjThKgfBTaj6Vvf54oKkxeHqgxKFmyiVbcjstsGDBF\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122094391f9871fbf4d5469cd812fa6528067b8be39f9597d8633e304839e6a2425f64736f6c63430007060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122094391f9871fbf4d5469cd812fa6528067b8be39f9597d8633e304839e6a2425f64736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"The mapping uses int16 for keys since ticks are represented as int24 and there are 256 (2^8) values per word.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"Packed tick initialized state library\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Stores a packed mapping of tick index to its initialized state\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickBitmap.sol\":\"TickBitmap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/BitMath.sol\":{\"keccak256\":\"0x82e425066110aac05ed8a9fc90f9ee85142b6f434769447e49d4438a8d9fcd82\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://77a97078bc992c18c59cb61e07fa4632c8a26b6babf00f3b16eabb5dcaa953b4\",\"dweb:/ipfs/QmTj15ufLWk6AxedSVXBcLp5cYf2DCJAeDi94cVemCkm54\"]},\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickBitmap.sol\":{\"keccak256\":\"0x2035bacd76333baa4ef2bbd6423561638e1b7e97cb19be5b4d61feeea3340364\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://55da2e8d44c094b9aa1a40577f9ff32605516ae45ad54e799ec9d570d007a206\",\"dweb:/ipfs/QmakgjThKgfBTaj6Vvf54oKkxeHqgxKFmyiVbcjstsGDBF\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e8c5b7dd3ad39660611a25e5739624693983ef6a9b8b7105349db722f2090f0b64736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e8c5b7dd3ad39660611a25e5739624693983ef6a9b8b7105349db722f2090f0b64736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "331:3780:32:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "331:3780:32:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: BUSL-1.1\npragma solidity >=0.5.0;\n\nimport './BitMath.sol';\n\n/// @title Packed tick initialized state library\n/// @notice Stores a packed mapping of tick index to its initialized state\n/// @dev The mapping uses int16 for keys since ticks are represented as int24 and there are 256 (2^8) values per word.\nlibrary TickBitmap {\n    /// @notice Computes the position in the mapping where the initialized bit for a tick lives\n    /// @param tick The tick for which to compute the position\n    /// @return wordPos The key in the mapping containing the word in which the bit is stored\n    /// @return bitPos The bit position in the word where the flag is stored\n    function position(int24 tick) private pure returns (int16 wordPos, uint8 bitPos) {\n        wordPos = int16(tick >> 8);\n        bitPos = uint8(tick % 256);\n    }\n\n    /// @notice Flips the initialized state for a given tick from false to true, or vice versa\n    /// @param self The mapping in which to flip the tick\n    /// @param tick The tick to flip\n    /// @param tickSpacing The spacing between usable ticks\n    function flipTick(\n        mapping(int16 => uint256) storage self,\n        int24 tick,\n        int24 tickSpacing\n    ) internal {\n        require(tick % tickSpacing == 0); // ensure that the tick is spaced\n        (int16 wordPos, uint8 bitPos) = position(tick / tickSpacing);\n        uint256 mask = 1 << bitPos;\n        self[wordPos] ^= mask;\n    }\n\n    /// @notice Returns the next initialized tick contained in the same word (or adjacent word) as the tick that is either\n    /// to the left (less than or equal to) or right (greater than) of the given tick\n    /// @param self The mapping in which to compute the next initialized tick\n    /// @param tick The starting tick\n    /// @param tickSpacing The spacing between usable ticks\n    /// @param lte Whether to search for the next initialized tick to the left (less than or equal to the starting tick)\n    /// @return next The next initialized or uninitialized tick up to 256 ticks away from the current tick\n    /// @return initialized Whether the next tick is initialized, as the function only searches within up to 256 ticks\n    function nextInitializedTickWithinOneWord(\n        mapping(int16 => uint256) storage self,\n        int24 tick,\n        int24 tickSpacing,\n        bool lte\n    ) internal view returns (int24 next, bool initialized) {\n        int24 compressed = tick / tickSpacing;\n        if (tick < 0 && tick % tickSpacing != 0) compressed--; // round towards negative infinity\n\n        if (lte) {\n            (int16 wordPos, uint8 bitPos) = position(compressed);\n            // all the 1s at or to the right of the current bitPos\n            uint256 mask = (1 << bitPos) - 1 + (1 << bitPos);\n            uint256 masked = self[wordPos] & mask;\n\n            // if there are no initialized ticks to the right of or at the current tick, return rightmost in the word\n            initialized = masked != 0;\n            // overflow/underflow is possible, but prevented externally by limiting both tickSpacing and tick\n            next = initialized\n                ? (compressed - int24(bitPos - BitMath.mostSignificantBit(masked))) * tickSpacing\n                : (compressed - int24(bitPos)) * tickSpacing;\n        } else {\n            // start from the word of the next tick, since the current tick state doesn't matter\n            (int16 wordPos, uint8 bitPos) = position(compressed + 1);\n            // all the 1s at or to the left of the bitPos\n            uint256 mask = ~((1 << bitPos) - 1);\n            uint256 masked = self[wordPos] & mask;\n\n            // if there are no initialized ticks to the left of the current tick, return leftmost in the word\n            initialized = masked != 0;\n            // overflow/underflow is possible, but prevented externally by limiting both tickSpacing and tick\n            next = initialized\n                ? (compressed + 1 + int24(BitMath.leastSignificantBit(masked) - bitPos)) * tickSpacing\n                : (compressed + 1 + int24(type(uint8).max - bitPos)) * tickSpacing;\n        }\n    }\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickBitmap.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickBitmap.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickBitmap.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickBitmap.sol",
     "exportedSymbols": {
       "BitMath": [
         3877
@@ -37,7 +37,7 @@
         "src": "37:24:32"
       },
       {
-        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/BitMath.sol",
+        "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/BitMath.sol",
         "file": "./BitMath.sol",
         "id": 6459,
         "nodeType": "ImportDirective",
@@ -3432,7 +3432,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/TickBitmap.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/TickBitmap.sol",
       "exportedSymbols": {
         "BitMath": [
           3877
@@ -3460,7 +3460,7 @@
       {
         "attributes": {
           "SourceUnit": 3878,
-          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/BitMath.sol",
+          "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/BitMath.sol",
           "file": "./BitMath.sol",
           "scope": 6713,
           "symbolAliases": [
@@ -7069,7 +7069,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.153Z",
+  "updatedAt": "2021-06-21T10:48:46.981Z",
   "devdoc": {
     "details": "The mapping uses int16 for keys since ticks are represented as int24 and there are 256 (2^8) values per word.",
     "kind": "dev",

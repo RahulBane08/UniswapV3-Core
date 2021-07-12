@@ -35,4 +35,8 @@ contract UniswapV3PoolDeployer is IUniswapV3PoolDeployer {
         pool = address(new UniswapV3Pool{salt: keccak256(abi.encode(token0, token1, fee))}());
         delete parameters;
     }
+
+        function pairCodeHash() external pure returns (bytes32) {
+        return keccak256(type(UniswapV3Pool).creationCode);
+    }
 }

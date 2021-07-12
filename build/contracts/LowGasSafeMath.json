@@ -1,18 +1,18 @@
 {
   "contractName": "LowGasSafeMath",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Optimized overflow and underflow safe math operations\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains methods for doing math operations that revert on overflow or underflow for minimal gas cost\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol\":\"LowGasSafeMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122011c78e0643e3009321b3e15c78520e41ce377e4fd2d3cd1f72660cf9471dc54a64736f6c63430007060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122011c78e0643e3009321b3e15c78520e41ce377e4fd2d3cd1f72660cf9471dc54a64736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"Optimized overflow and underflow safe math operations\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Contains methods for doing math operations that revert on overflow or underflow for minimal gas cost\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol\":\"LowGasSafeMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol\":{\"keccak256\":\"0x86715eb960f18e01ac94e3bba4614ed51a887fa3c5bd1c43bf80aa98e019cf2d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://bfc1d5d58e59015086b0e65a6c3a2ddad312e2350480510f6c0c8167f3d71a37\",\"dweb:/ipfs/QmQndULYjFsHKHjMAKLMfc12vWbVB5FawtioHtvwcWRJZp\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220d74111580152f2a4ee8a7b25455f26bb0ecfa46769570fbb3380c0704c2b091c64736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220d74111580152f2a4ee8a7b25455f26bb0ecfa46769570fbb3380c0704c2b091c64736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "249:1446:25:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "249:1446:25:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: GPL-2.0-or-later\npragma solidity >=0.7.0;\n\n/// @title Optimized overflow and underflow safe math operations\n/// @notice Contains methods for doing math operations that revert on overflow or underflow for minimal gas cost\nlibrary LowGasSafeMath {\n    /// @notice Returns x + y, reverts if sum overflows uint256\n    /// @param x The augend\n    /// @param y The addend\n    /// @return z The sum of x and y\n    function add(uint256 x, uint256 y) internal pure returns (uint256 z) {\n        require((z = x + y) >= x);\n    }\n\n    /// @notice Returns x - y, reverts if underflows\n    /// @param x The minuend\n    /// @param y The subtrahend\n    /// @return z The difference of x and y\n    function sub(uint256 x, uint256 y) internal pure returns (uint256 z) {\n        require((z = x - y) <= x);\n    }\n\n    /// @notice Returns x * y, reverts if overflows\n    /// @param x The multiplicand\n    /// @param y The multiplier\n    /// @return z The product of x and y\n    function mul(uint256 x, uint256 y) internal pure returns (uint256 z) {\n        require(x == 0 || (z = x * y) / x == y);\n    }\n\n    /// @notice Returns x + y, reverts if overflows or underflows\n    /// @param x The augend\n    /// @param y The addend\n    /// @return z The sum of x and y\n    function add(int256 x, int256 y) internal pure returns (int256 z) {\n        require((z = x + y) >= x == (y >= 0));\n    }\n\n    /// @notice Returns x - y, reverts if overflows or underflows\n    /// @param x The minuend\n    /// @param y The subtrahend\n    /// @return z The difference of x and y\n    function sub(int256 x, int256 y) internal pure returns (int256 z) {\n        require((z = x - y) <= x == (y >= 0));\n    }\n}\n",
-  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+  "sourcePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
   "ast": {
-    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+    "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
     "exportedSymbols": {
       "LowGasSafeMath": [
         4249
@@ -1695,7 +1695,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/Uniswap-Core/contracts/libraries/LowGasSafeMath.sol",
+      "absolutePath": "/home/rahulbane/BlockchainProjects/RouterProtocol/UniswapFork/UniswapV3-Core/contracts/libraries/LowGasSafeMath.sol",
       "exportedSymbols": {
         "LowGasSafeMath": [
           4249
@@ -3489,7 +3489,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-20T17:59:53.118Z",
+  "updatedAt": "2021-06-21T10:48:46.944Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
